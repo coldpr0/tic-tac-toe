@@ -221,4 +221,4 @@ while game_running:
             screen.blit(O_wins, (300, 310))
         elif checking_stuff.check_win(tile_placement) == 'tie':
             screen.blit(tie, (300, 310))
-    p   ygame.display.flip()
+    pygame.display.flip()
