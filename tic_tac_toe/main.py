@@ -66,10 +66,10 @@ def new_game():
     bot_right_Y = False
     player_turn = 'X'
     ending_screen = False
-X_wins = pygame.image.load('/Users/gabrielpasulka/PycharmProjects/pygamepractice/tic_tac_toe/images/X_wins.png')
-O_wins = pygame.image.load('/Users/gabrielpasulka/PycharmProjects/pygamepractice/tic_tac_toe/images/O_wins.png')
-tie = pygame.image.load('/Users/gabrielpasulka/PycharmProjects/pygamepractice/tic_tac_toe/images/Tie.png')
-play_again = pygame.image.load('/Users/gabrielpasulka/PycharmProjects/pygamepractice/tic_tac_toe/images/play_again.png')
+X_wins = pygame.image.load('images/X_wins.png')
+O_wins = pygame.image.load('images/O_wins.png')
+tie = pygame.image.load('images/Tie.png')
+play_again = pygame.image.load('images/play_again.png')
 
 
 def draw_lines():
